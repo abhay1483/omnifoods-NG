@@ -28,6 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/vendors/css/normalize.css",
+              "src/assets/vendors/css/grid.css",
+              "src/assets/vendors/css/ionicons.min.css",
               "src/styles.scss"
             ],
             "scripts": []
