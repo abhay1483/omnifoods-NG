@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "omnifoods-9ebad": {
+      "hosting": {
+        "omnifoods": [
+          "omnifoods-9ebad"
+        ]
+      }
+    }
+  }
+}
