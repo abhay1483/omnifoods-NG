@@ -6,11 +6,12 @@ import { FeaturesComponent } from './features/features.component';
 import { FavouritesComponent } from './favourites/favourites.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HowToComponent } from './how-to/how-to.component';
+import { CitiesComponent } from './cities/cities.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent],
+  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent, CitiesComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
