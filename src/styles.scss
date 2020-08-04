@@ -73,6 +73,14 @@ h2::after {
     margin-top: 30px;
 }
 
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ---- PARAGRAPHS ---- */
 
 .long-copy {
