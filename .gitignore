@@ -43,6 +43,8 @@ testem.log
 
 # firebase
 .firebase
+.firebaserc
+firebase.json
 
 # System Files
 .DS_Store
