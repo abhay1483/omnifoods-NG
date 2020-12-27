@@ -8,11 +8,12 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HowToComponent } from './how-to/how-to.component';
 import { CitiesComponent } from './cities/cities.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent, CitiesComponent, TestimonialComponent],
+  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent, CitiesComponent, TestimonialComponent, PricingComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
