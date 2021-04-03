@@ -9,11 +9,13 @@ import { HowToComponent } from './how-to/how-to.component';
 import { CitiesComponent } from './cities/cities.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent, CitiesComponent, TestimonialComponent, PricingComponent],
+  declarations: [HeaderComponent, FeaturesComponent, FavouritesComponent, HomePageComponent, HowToComponent, CitiesComponent, TestimonialComponent, PricingComponent, ContactFormComponent, FooterComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

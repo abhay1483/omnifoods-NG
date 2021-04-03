@@ -1,7 +1,21 @@
-<app-header></app-header>
-<app-features></app-features>
-<app-favourites></app-favourites>
-<app-how-to></app-how-to>
-<app-cities></app-cities>
-<app-testimonial></app-testimonial>
-<app-pricing></app-pricing>
+<ng-container>
+    <app-header (navigate)="scroll($event)"></app-header>
+    <section class="section-features" #features>
+        <app-features></app-features>
+    </section>
+    <app-favourites></app-favourites>
+    <section class="section-steps" #how>
+        <app-how-to></app-how-to>
+    </section>
+    <section class="section-cities" #cities>
+        <app-cities></app-cities>
+    </section>
+    <app-testimonial></app-testimonial>
+    <section class="section-plans" #pricing>
+        <app-pricing></app-pricing>
+    </section>
+    <section class="section-form" #signup>
+        <app-contact-form></app-contact-form>
+    </section>
+    <app-footer></app-footer>
+</ng-container>
